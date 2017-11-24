@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+#border-top{
+	height: 30px;
+	background-color: #F09A57;
+	align-content: center;
+	text-align: center;
+}
+
+#border-top p{
+text-align: center;
+text-transform: uppercase;
+font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+color: #fff;
+letter-spacing: 0.3em;
+}
+
+
+#sec-services{
+	padding: 30px 0px 0px;
+}
+
+
+#sec-services{
+	background-color: #F4E8D2;
+	padding: 60px 0px;
+	border-top:solid 1px;
+	color: #000000
+	}
+
+
+#sec-slides h2{
+	font-size: 64px;
+	text-align: left;
+	font-family:'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	
+}
+
+#sec-slides h4{
+	text-align: left;
+}
+
+#sec-slides p{
+	font-size: 18px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+#sec-slides a{
+	text-transform: uppercase;
+}
+
+.title{
+	align-content: center;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+	
+}
+
+#logo{
+	align-content: center;
+	margin-bottom: 20px;
+}
+

@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Quienes somos</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="css/stylecontacto.css" rel="stylesheet">
+<link href="css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+</header>
+
+
+<section id="sec-content" >
+<div class="container">
+	<div class="row">
+	<h1>Contactanos</h1>
+	
+	<article class="col-md-6">
+		<h3>Formulario de Envío de "Al toque"</h3>
+	<form id="form1" name="form1" action="" method="post" class="col-md-6">
+		
+		<div class="row">
+		
+			<div class="form-group">
+				<label>Nombre</label>
+				<input type="text" class="form-control" id="nombre" name="nombre" required maxlength="50" placeholder="Ingrese su nombre">
+			</div>
+			
+			<div class="form-group">
+				<label>Apellido</label>
+				<input type="text" class="form-control" id="apellido" name="apellido" required maxlength="50" placeholder="Ingrese su apellido">
+			</div>
+			
+			<div class="form-group">
+		   <label>País</label>
+		   <select id="país" name="país" class="form-control" placeholder=" País">
+			 <optgroup title="pais">
+			   <option value="USA">Honduras</option>
+			   <option value="Canada">El salvador</option>
+			   <option value="Mexico">México</option>
+			   <option value="El Salvador">El Salvador</option>
+			   <option value="Nicaragua">Nicaragua</option> 
+			   <option value="Honduras">Guatemala</option>	 
+			   <option value="Guatemala">Costa Rica</option> 
+		       <option value="Panama">Panama</option>
+			   <option value="Costa Rica">Costa Rica</option>
+			   </optgroup>
+			   </select>
+		   </div>
+
+		<div class="form-group">
+		   <label>Número de Teléfono</label>
+		   <input type="numero" class="form-control" id="numero" name="numero" placeholder="Ingrese Número de Teléfono">
+		   </div>
+		   
+		   <div class="form-group">
+		    <label>Correo Electrónico</label>
+		   <input type="text" class="form-control" id="correo" name="correo" maxlength="50" placeholder="Ingrese su Correo Electrónico">
+		   </div>  
+		   
+		   
+		 <div class="form-group">
+			   <label>Mensaje</label>
+			   <textarea id="mensaje" name="mensaje" class="form-control" cols="100" rows="8" placeholder="Mensaje"></textarea>
+		</div>
+		</div>
+		</form>
+		</article>
+	</div>
+	</div>
+	</section>   
+			
+
+
+</body>
+</html>
